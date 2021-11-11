@@ -1,0 +1,26 @@
+Al principio se pide el Usuario y la contraseña, para despues darle al boton 
+en la parte inferior de la ventana.
+
+Una vez pulsado el anterior boton, emerje la ventana del juego, el cual tiene
+las siguientes funciones:
+
+-Los puntos se van sumando cada vez que el personaje se mueve.
+
+-La energia va decrementando en cada movimiento del personaje,
+ pero si el personaje se situa encima de una hamburguesa, a la 
+ energia se le suma los puntos que tuviera esa hamburguesa.
+ 
+ -El boton "Información", nos hace aparecer una ventana, con 
+  toda la información acerca del programa y el autor.
+  
+ -Los botones de Movimiento, como su mismo nombre indica sirven
+  para moverse en el eje Y y X, ademas el juego cuenta con un 
+  boton (Hiperespacio), que permite despalzarse al personaje a una posición 
+  aleatoria en el panel de juego.
+  
+  -Los Fantasmas tienen la función de incrementarse en uno, cuando
+   se colocan encima de una hamburguesa.
+  
+  Cuando el personaje se queda sin energía(energia=0) o un fantasma se coloca encima
+  del personaje, el juego se termina, quedando la eneria=10, los puntos=0 y apareciendo 
+  una ventana que pone "Fin de Juego", con letras negras y fondo rojo.
